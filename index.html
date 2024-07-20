@@ -3,37 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculator</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="calculator">
-        <input type="text" class="calculator-screen" value="" disabled>
-        <div class="calculator-keys">
-            <button type="button" class="operator" value="+">+</button>
-            <button type="button" class="operator" value="-">-</button>
-            <button type="button" class="operator" value="*">&times;</button>
-            <button type="button" class="operator" value="/">&divide;</button>
-
-            <button type="button" value="7">7</button>
-            <button type="button" value="8">8</button>
-            <button type="button" value="9">9</button>
-
-            <button type="button" value="4">4</button>
-            <button type="button" value="5">5</button>
-            <button type="button" value="6">6</button>
-
-            <button type="button" value="1">1</button>
-            <button type="button" value="2">2</button>
-            <button type="button" value="3">3</button>
-
-            <button type="button" value="0">0</button>
-            <button type="button" value=".">.</button>
-            <button type="button" class="all-clear" value="all-clear">AC</button>
-
-            <button type="button" class="equal-sign operator" value="=">=</button>
+    <header>
+        <nav>
+            <div class="left">Portfolio</div>
+            <div class="right">
+                <ol>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Skills</li>
+                    <li>Project</li>
+                </ol>
+            </div>
+            
+        </nav>
+    </header>
+    <main>
+       <div class="leftsection">Hi, My name is <span class="clr">Manish</span> and I am a <span class="clr2">Web Developer</span></div>
+       <div class="rightsection">
+        <img src="bg.png" alt="">
+       </div>
+    </main>
+    <hr>
+    <section>
+        <h1>Education</h1>
+        <div class="box">
+            <div class="vertical">
+                <div class="vertical-title">
+                   High School (2007-2020)
+                </div>
+                <div class="vertical-desc">I complete my 10th Class From Godwin Public School in 2020</div>
+            </div>
+            <div class="vertical">
+                <div class="vertical-title">
+                    Secondary Education (2020-2022)
+                 </div>
+                 <div class="vertical-desc">I complete my 12th Class From Godwin Public School in 2022</div>
+            </div>
+            <div class="vertical">
+                <div class="vertical-title">
+                    Graduation (2022-2025)
+                 </div>
+                 <div class="vertical-desc">Currently doing my BCA degree from Vidya Knowledge Park </div>
+            </div>
         </div>
-    </div>
-    <script src="script.js"></script>
+       </section>
+
+       <footer>
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h2>About Me</h2>
+                <p>Hi, I'm Manish, a Web Developer. Welcome to my portfolio.</p>
+            </div>
+            <div class="footer-section contact">
+                <h2>Contact</h2>
+                <p>Email: <a href="mailto:your.email@example.com">manishtomar015@gmail.com.com</a></p>
+                <p>Phone: <a href="tel:+1234567890">+918218420821</a></p>
+            </div>
+            <div class="footer-section social">
+                <h2>Follow Me</h2>
+                <a href="https://twitter.com/yourprofile" target="_blank">Twitter</a>
+                <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+                <a href="https://github.com/yourprofile" target="_blank">GitHub</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Manish. All Rights Reserved.</p>
+        </div>
+    </footer>
+       
 </body>
 </html>
